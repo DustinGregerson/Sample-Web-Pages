@@ -1,0 +1,24 @@
+html{
+    background: radial-gradient(circle, rgba(221,203,68,0.8) 28%, rgba(0,0,0,1) 100%);
+}
+
+.SectRow{
+    border: 6px inset #000000;
+    padding: 5px;
+}
+#ButtonPan{
+    border: 6px inset #000000;
+    padding: 5px;
+}
+#PierCalculator{
+    border: 6px groove #000000;
+    background-color: gray;
+}
+h2{
+    border: 6px inset #000000;
+    padding: 5px;
+    margin:0;
+}
+.invalid{
+    background-color: lightcoral;
+}

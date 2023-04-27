@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    height: 89vh;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1vh;
+    font-size: 4vw;
+}
+h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: .2vh;
+    font-size: 2.6vw;
+}
+#PierCalculator{
+    width: 40vw;
+  
+}
+#PierPan{
+    width:100%;
+}
+#PierPan .SectRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+label{
+    font-size: 2vw;
+}
+input{
+    font-size: 2vw;
+}
+#ButtonPan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}

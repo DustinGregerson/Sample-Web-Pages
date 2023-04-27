@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohms law Calculator</title>
+    <link rel="stylesheet" href="ResetCSS.css">
+    <link rel="stylesheet" href="PierCalculatorLayOut.css">
+    <link rel="stylesheet" href="PierCalculatorGraphics.css">
+</head>
+<body>
+    <div id="PierCalculator">
+    <h1>ohms law Calculator</h1>
+    <div id="PierPan">
+        <h2 id="discription">Enter two variables to find the rest</h2>
+
+        <div class="SectRow">
+            <label for="Resistance">Enter Resistance or Ohms:</label>
+            <input type="text" name="Resistance" id="Resistance">
+        </div>
+        <div class="SectRow">
+            <label for="Current">Enter Current or amps:</label>
+            <input type="text" name="Current" id="Current">
+        </div>
+        <div class="SectRow">
+            <label for="Voltage">Enter Voltage:</label>
+            <input type="text" name="Voltage" id="Voltage">
+        </div>
+        <div class="SectRow">
+            <label for="Power">Enter Power or Watts:</label>
+            <input type="text" name="Power" id="Power">
+        </div>
+    </div>
+    <div id="ButtonPan">
+        <input type="button" name="Calc" id="Calc" value="Calc">
+        <input type="button" name="Clear" id="Clear" value="Clear">
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="PierCalculatorScript.js"></script>
+</body>
+</html>
