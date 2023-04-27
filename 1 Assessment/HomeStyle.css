@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*
+   Author: Dustin Gregerson
+   Date: 2/1/2023
+*/
+body{
+    background: radial-gradient(circle, rgba(255,255,255,0.99) 4%, rgba(103,103,103,1) 68%);
+    width: 100vw;
+    height: 90vh;
+}
+/*
+   
+   note: after this flex box is in flex direct column.
+*/
+#Window{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+    border: 10px ridge #ffffff;
+    box-shadow: -1px 9px 31px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 9px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 31px 0px rgba(0,0,0,0.75);
+}
+/*
+   This makes my buttons line up horizontaly
+*/
+#buttonPan{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:25%;
+    margin-top: 5%;
+    justify-content: center;
+
+}
+/*
+   
+*/
+h1{
+    text-align: center;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 2em;
+    font-weight: bold;
+}
+/*
+   rules for the win banner.
+   it is hidden at first then changed by the script to a flex box
+
+*/
+#WinBanner{
+    display: none;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    float: left;
+    position: absolute;
+    text-align: center;
+    font-size: 4em;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+
+}

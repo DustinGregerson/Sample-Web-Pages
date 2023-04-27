@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+   Author: Dustin Gregerson
+   Date: 2/1/2023
+-->
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="ResetCSS.css">
+      <link rel="stylesheet" href="HomeStyle.css">
+      <title>Slide Puzzle Game</title>
+   </head>
+   <body>
+
+      <header>
+         <h1>Sliding puzzle game.</h1>
+      </header>
+
+      <aside id="WinBanner">
+         Solved!!!!!!.
+         <p onclick="playAgain()">
+            <button>Play Again?</button>
+         </p>
+      </aside>
+
+      <div id="Window">
+        <script src="Game.js"></script>
+      </div>
+
+      
+      <div id="buttonPan">
+         <div id="cheat" onclick="cheat()">
+            <button>Cheat?</button>
+         </div>
+         <div id="Scram" onclick="randomizeValues()">
+            <button>Scramble?</button>
+         </div>
+      </div>
+   </body>
+</html>
